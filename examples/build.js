@@ -104193,18 +104193,18 @@ module.exports={
   "_args": [
     [
       {
-        "raw": "levelup@^1.3.1",
+        "raw": "levelup",
         "scope": null,
         "escapedName": "levelup",
         "name": "levelup",
-        "rawSpec": "^1.3.1",
-        "spec": ">=1.3.1 <2.0.0",
-        "type": "range"
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
       },
-      "/media/brodavi/shared/src/aframe-p2p-scene-component/node_modules/memdb"
+      "/media/brodavi/shared/src/aframe-p2p-component"
     ]
   ],
-  "_from": "levelup@>=1.3.1 <2.0.0",
+  "_from": "levelup@latest",
   "_id": "levelup@1.3.3",
   "_inCache": true,
   "_installable": true,
@@ -104221,22 +104221,23 @@ module.exports={
   "_npmVersion": "2.15.8",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "levelup@^1.3.1",
+    "raw": "levelup",
     "scope": null,
     "escapedName": "levelup",
     "name": "levelup",
-    "rawSpec": "^1.3.1",
-    "spec": ">=1.3.1 <2.0.0",
-    "type": "range"
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
   },
   "_requiredBy": [
+    "#USER",
     "/memdb"
   ],
   "_resolved": "https://registry.npmjs.org/levelup/-/levelup-1.3.3.tgz",
   "_shasum": "bf9db62bdb6188d08eaaa2efcf6cc311916f41fd",
   "_shrinkwrap": null,
-  "_spec": "levelup@^1.3.1",
-  "_where": "/media/brodavi/shared/src/aframe-p2p-scene-component/node_modules/memdb",
+  "_spec": "levelup",
+  "_where": "/media/brodavi/shared/src/aframe-p2p-component",
   "browser": {
     "leveldown": false,
     "leveldown/package": false,

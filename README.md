@@ -1,6 +1,6 @@
 ## aframe-p2p-component
 
-WORK IN PROGRESS
+WORK IN PROGRESS  [demo](https://brodavi.github.io/aframe-p2p-component/basic/)
 
 A component for [A-Frame](https://aframe.io) that enables sharing and updating objects with multiple peers over p2p WebRTC.
 
