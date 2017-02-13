@@ -21,6 +21,8 @@ WARNING!: Physics and animation will trigger position and rotation changed event
 | signalhub| the signalling server url which is required for the peers to find each other | https://signalhub.mafintosh.com |
 | topic    | the topic (id) of the p2p channel the peers will be swarming in | 'mytopic' |
 
+NOTE: HTTPS seems to be necessary sometimes for the signalhub property value.
+
 ### Installation
 
 #### Browser
@@ -35,7 +37,7 @@ Install and use by directly including the [browser files](dist):
 </head>
 
 <body>
-  <a-scene p2p="signalhub: somesignalhub.com; topic: myprivatetopic">
+  <a-scene p2p="signalhub: https://somesignalhub.com; topic: myprivatetopic">
   </a-scene>
 </body>
 ```
