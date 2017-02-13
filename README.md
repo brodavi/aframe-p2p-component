@@ -8,7 +8,7 @@ Built on top of [unsigned-swarmlog](http://npmjs.org/package/unsigned-swarmlog),
 
 The A-Frame objects created with the [A-Frame inspector](https://aframe.io/docs/master/guides/using-the-aframe-inspector.html) persist in memory via [memdb](http://npmjs.org/package/memdb) but could be altered to use leveldb if desired.
 
-Note that [substack's](https://www.npmjs.com/~substack) original swarmlog is intended to be a cryptographically-secure means of ensuring a publisher to a hyperlog is who they say they are. aframe-p2p-component uses a fork of this project that ignores the cryptographically-secure signing aspect of swarmlog, assuming that small teams of trusted individuals will be using this component to collaboratively build A-Frame scenes and objects without any servers.
+Note that [substack's](https://www.npmjs.com/~substack) original [swarmlog](http://npmjs.org/package/swarmlog) is intended to be a cryptographically-secure means of ensuring a publisher to a hyperlog is who they say they are. aframe-p2p-component uses a fork of this project that ignores the cryptographically-secure signing aspect of swarmlog, assuming that small teams of trusted individuals will be using this component to collaboratively build A-Frame scenes and objects without any servers.
 
 CAVEATS: Be warned that not all objects are working just yet.
 
@@ -35,8 +35,7 @@ Install and use by directly including the [browser files](dist):
 </head>
 
 <body>
-  <a-scene>
-    <a-entity p2p="signalhub: somesignalhub.com"></a-entity>
+  <a-scene p2p="signalhub: somesignalhub.com; topic: myprivatetopic">
   </a-scene>
 </body>
 ```
